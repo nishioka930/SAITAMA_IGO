@@ -33,6 +33,14 @@ a:hover {
   margin-bottom: 200px;
 }
 
+.line2 {
+  height: 2px;
+  width: 53.5%;
+  background-color: white;
+  margin: 20px auto;
+  margin-bottom: 30px;
+}
+
 ol {
   text-align: center;
   margin-left: -40px; 
