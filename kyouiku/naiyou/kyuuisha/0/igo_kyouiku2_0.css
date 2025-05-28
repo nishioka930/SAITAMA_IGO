@@ -37,8 +37,8 @@ a:hover {
     width: 300px;
     position: fixed;
     overflow-y: auto;
-    font-family: "Yuji syuku";
     box-sizing: border-box;
+    font-family: "Yuji syuku";
     background-color: rgb(109, 122, 72);
 
     border-top-right-radius: 20px;

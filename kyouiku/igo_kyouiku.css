@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   color: wheat; 
 }
@@ -19,7 +23,7 @@ a:hover {
 
 .line {
   height: 2px;
-  width: 83%;
+  width: 53.5%;
   background-color: white;
   margin: 20px auto;
 }
@@ -28,6 +32,25 @@ ol {
   text-align: center;
   margin-left: -40px; 
   list-style-position: inside;
+}
+
+.vertical-line1,
+.vertical-line2 {
+  position: fixed;
+  top: 0;
+  width: 2px;
+  height: 100vh;            /* ← 画面いっぱいの高さ */
+  background-color: white;
+  z-index: 9999;
+}
+
+/* それぞれに位置指定 */
+.vertical-line1 {
+  left: 300px;
+}
+
+.vertical-line2 {
+  right: 300px;
 }
 
 .kyouiku_naiyou a {
