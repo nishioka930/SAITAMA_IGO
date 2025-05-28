@@ -21,11 +21,16 @@ a:hover {
   color: rgb(0, 255, 174); 
 }
 
+.title{
+  font-size: 30px;
+}
+
 .line {
   height: 2px;
   width: 53.5%;
   background-color: white;
   margin: 20px auto;
+  margin-bottom: 200px;
 }
 
 ol {
