@@ -23,15 +23,3 @@ a:hover {
   background-color: white;
   margin: 20px auto;
 }
-
-ol {
-  text-align: center;
-  margin-left: -40px; 
-  list-style-position: inside;
-}
-
-.kyouiku_naiyou a {
-  display: block;
-  margin: 0 auto;
-  width: fit-content;
-}

@@ -2,7 +2,6 @@ body {
   background-color: #000000;
   color: white;
   font-family: "HG正楷書体-PRO";
-  text-align: center;
 }
 
 a {
@@ -22,16 +21,4 @@ a:hover {
   width: 83%;
   background-color: white;
   margin: 20px auto;
-}
-
-ol {
-  text-align: center;
-  margin-left: -40px; 
-  list-style-position: inside;
-}
-
-.kyouiku_naiyou a {
-  display: block;
-  margin: 0 auto;
-  width: fit-content;
 }
