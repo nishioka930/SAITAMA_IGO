@@ -1,0 +1,46 @@
+body {
+  background-color: #000000;
+  color: white;
+  font-family: "HG正楷書体-PRO";
+}
+
+.title {
+  text-align: center;
+  margin-left: 120px; 
+  margin-top: 80px;
+
+  white-space: nowrap; 
+  
+  width: 400px;
+  height: 300px;
+  font-size: 45px;
+
+  display: flex;   
+  gap: 180px;
+}
+
+.igo_img{
+  display: flex;
+  gap: 30px;
+}
+
+.line {
+  height: 2px;
+  width: 83%;
+  background-color: white;
+  margin: 20px auto;
+}
+
+.SU{
+  text-align: center;
+  margin-left: 120px; 
+  margin-top: 70px;
+
+  width: 100px;
+  height: 180px;
+  white-space: nowrap; 
+}
+
+.page{
+  text-align: center;
+}
