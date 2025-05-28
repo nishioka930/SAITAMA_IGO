@@ -43,6 +43,19 @@ a:hover {
   margin: 20px auto;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease forwards;
+}
+
 .SU{
   text-align: center;
   margin-left: 120px; 
