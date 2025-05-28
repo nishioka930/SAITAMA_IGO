@@ -23,6 +23,13 @@ a:hover {
   margin: 20px auto;
 }
 
+.line2 {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+  margin: 20px auto;
+}
+
 .logo{
   text-align: center;
 }
