@@ -33,7 +33,7 @@ a:hover {
     font-family: "Yuji syuku";
     box-sizing: border-box;
     background-color: rgb(109, 122, 72);
-    /*初心者は(244,194,194)、段位者は(111,45,168)*/
+    /*初心者は(192, 152, 152)、段位者は(111,45,168)*/
 
     border-top-right-radius: 20px;
     font-size: 15px;
