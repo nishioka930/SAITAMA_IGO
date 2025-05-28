@@ -8,6 +8,17 @@
     <title>埼玉大学囲碁部/教育/<!-- 講座が何回目か、２進数で --></title>
   </head>
   <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="#kyuiku_page">タイトル</a></li>
+
+        <li><a href="#rule">題名１</a></li>
+        <li><a href="#itteatari">　題目２</a></li>
+        <li><a href="#">　副題１</a></li>
+
+        <li><a href="#">題名３</a></li>
+      </ul>    
+    </div>
     <div class="kyouiku">
       <div class="kyuiku_page">
         <h1>第回 <!--   タイトル  --></h1>
