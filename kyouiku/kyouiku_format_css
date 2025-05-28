@@ -61,7 +61,8 @@ a:hover {
   bottom: 0;          /* 画面下端に固定 */
   width: 300px;       /* サイドバーの幅に合わせる */
   padding: 10px;
-  background-color: rgb(80, 90, 40); /* 適宜調整 */
+  background-color: rgb(80, 90, 40); 
+  /* 初心者は(192, 152, 152)、段位者は(84, 34, 127)*/
   color: white;
   font-family: "Yuji syuku";
   font-size: 14px;
