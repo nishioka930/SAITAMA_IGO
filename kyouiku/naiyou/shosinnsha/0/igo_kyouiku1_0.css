@@ -30,9 +30,9 @@ a:hover {
     width: 300px;
     position: fixed;
     overflow-y: auto;
-    box-sizing: border-box;
     font-family: "Yuji syuku";
-    background-color: rgb(109, 122, 72);
+    box-sizing: border-box;
+    background-color: rgb(244,194,194);
 
     border-top-right-radius: 20px;
     font-size: 15px;
@@ -41,23 +41,4 @@ a:hover {
 .sidebar a{
     color: white;
     text-decoration: none;
-}
-
-.sidebar a:hover{
-    color: rgba(168, 168, 168, 0.973);
-}
-
-.sidebar ul,li{
-    
-    list-style: none;
-    margin: 0;
-    padding: 10px 5px;
-}
-
-.line {
-    text-align: center;
-    height: 2px;
-    width: 100vw;
-    background-color: white;
-    margin: 20px auto;
 }

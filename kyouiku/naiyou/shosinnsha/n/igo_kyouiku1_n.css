@@ -2,6 +2,13 @@ body {
   background-color: #000000;
   color: white;
   font-family: "HG正楷書体-PRO";
+
+  text-align: left;
+  margin-left: 339px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -16,20 +23,41 @@ a:hover {
   color: rgb(0, 255, 174); 
 }
 
+.sidebar{
+    top: 0;
+    left: 0; 
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    overflow-y: auto;
+    font-family: "Yuji syuku";
+    box-sizing: border-box;
+    background-color: rgb(244,194,194);
+
+    border-top-right-radius: 20px;
+    font-size: 15px;
+}
+
+.sidebar a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    color: rgba(168, 168, 168, 0.973);
+}
+
+.sidebar ul,li{
+    
+    list-style: none;
+    margin: 0;
+    padding: 10px 5px;
+}
+
 .line {
-  height: 2px;
-  width: 83%;
-  background-color: white;
-  margin: 20px auto;
-}
-
-.line2 {
-  height: 2px;
-  width: 100%;
-  background-color: white;
-  margin: 20px auto;
-}
-
-.logo{
-  text-align: center;
+    text-align: center;
+    height: 2px;
+    width: 100vw;
+    background-color: white;
+    margin: 20px auto;
 }

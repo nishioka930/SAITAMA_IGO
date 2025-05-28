@@ -23,13 +23,6 @@ a:hover {
   color: rgb(0, 255, 174); 
 }
 
-.line {
-  height: 2px;
-  width: 83%;
-  background-color: white;
-  margin: 20px auto;
-}
-
 .sidebar{
     top: 0;
     left: 0; 
@@ -40,6 +33,7 @@ a:hover {
     font-family: "Yuji syuku";
     box-sizing: border-box;
     background-color: rgb(109, 122, 72);
+    /*初心者は(244,194,194)、段位者は(111,45,168)*/
 
     border-top-right-radius: 20px;
     font-size: 15px;
@@ -61,7 +55,7 @@ a:hover {
     padding: 10px 5px;
 }
 
-.line2 {
+.line {
     text-align: center;
     height: 2px;
     width: 100vw;
