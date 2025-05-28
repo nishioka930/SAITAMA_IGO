@@ -3,3 +3,23 @@ body {
   color: white;
   font-family: "HG正楷書体-PRO";
 }
+
+a {
+  color: wheat; 
+}
+
+a:visited {
+  color: blueviolet; 
+}
+
+a:hover {
+  color: rgb(0, 255, 174); 
+}
+
+.kyouiku_page{
+  text-align: center;
+}
+
+.kyouiku_naiyou{
+  text-align: center;
+}

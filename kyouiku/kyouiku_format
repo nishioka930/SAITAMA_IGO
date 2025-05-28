@@ -8,25 +8,27 @@
     <title>埼玉大学囲碁部/教育/<!-- 講座が何回目か、２進数で --></title>
   </head>
   <body>
-    <div class="kyuiku_page">
-      <h1>第回 <!--   タイトル  --></h1>
-    </div><br>
-    <div class="kyouiku_naiyou">
-      <h2><!--   最初の一言  --></h2>
-      <h4>
+    <div class="kyouiku">
+      <div class="kyuiku_page">
+        <h1>第回 <!--   タイトル  --></h1>
+      </div><br>
+      <div class="kyouiku_naiyou">
+        <h2><!--   最初の一言  --></h2>
+        <h4>
         <!--   コメ  -->
-      </h4>
-      <h4>
+        </h4>
+        <h4>
         <!--   コメ  -->
-      </h4>
-      <br>
-      <h4><!--   コメ  -->
-        <!--   ＃のあとにはIDID  -->
+        </h4>
+        <br>
+        <h4><!--   コメ  -->
+          <!--   ＃のあとにはIDID  -->
           <br><a href="#">・<!--   コメ  --></a>
           <br><a href="#">・<!--   コメ  --></a>
           <br><a href="#">・<!--   コメ  --></a>
           <br><!--   コメ  -->
-      </h4><br>
+        </h4><br>
+      </div>
     </div>
   </body>
 </html>
