@@ -75,3 +75,48 @@ ol {
 .logo{
   text-align: center;
 }
+
+.tooltip {
+  position: relative; /* これがないと絶対位置基準がおかしくなる */
+  cursor: pointer;
+  display: inline-block; /* 横並びを確実に */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;           /* 自動幅にしてテキストのサイズに合わせる */
+  max-width: 200px;      /* 最大幅は設定しておくと良い */
+  white-space: nowrap;   /* 横に長く表示（折り返さない） */
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;      /* 左揃え */
+  border-radius: 6px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 10;
+  top: 50%;                      /* 縦方向中央 */
+  left: calc(100% + 15px);                   /* 文字の真右にくる */
+  transform: translateY(-50%);   /* 垂直中央揃え */
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgba(255, 255, 255, 0.9) transparent transparent;
+}
