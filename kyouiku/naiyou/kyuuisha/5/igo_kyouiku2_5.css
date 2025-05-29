@@ -40,7 +40,7 @@ a:hover {
     overflow-y: auto;
     font-family: "Yuji syuku";
     box-sizing: border-box;
-    background-color: rgb(109, 122, 72);
+    background-color: rgb(128,170,212);
 
     border-top-right-radius: 20px;
     font-size: 15px;
@@ -51,7 +51,7 @@ a:hover {
     text-decoration: none;
 }
 
-.sidebar a:hover,.hapidead a:hover{
+.sidebar a:hover,.sidebar a.active,.hapidead a:hover{
     color: rgba(168, 168, 168, 0.973);
 }
 
@@ -68,7 +68,7 @@ a:hover {
   bottom: 0;          /* 画面下端に固定 */
   width: 300px;       /* サイドバーの幅に合わせる */
   padding: 10px;
-  background-color: rgb(80, 90, 40); /* 適宜調整 */
+  background-color: rgb(128,137,212); /* 適宜調整 */
   color: white;
   font-family: "Yuji syuku";
   font-size: 14px;
