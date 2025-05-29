@@ -109,4 +109,15 @@
         <br><br><a href="https://fujigoban.appspot.com/ai/?sgf=()&num=(手数)"
         target="_blank">
             <img src="../igoicon.png" alt="igoicon" width="60" height="60"/></a>
+
+<div class="daimoku" id="main">
+          <h2>項目</h2>
+          <br><br><br><div class="daimoku" id="sub-">
+          <h3>題目</h3>
+            </div>
+          <br><br><br><div class="daimoku" id="sub-">
+            </div>
+          <br><br><br><div class="daimoku" id="sub-">
+            </div>
+        </div>
 -->
