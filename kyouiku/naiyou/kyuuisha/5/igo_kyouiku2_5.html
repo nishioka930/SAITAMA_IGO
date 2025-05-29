@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ja">
-<html>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="igo_kyouiku2_5.css">
     <title>埼玉大学囲碁部/教育/101</title>
+
+    <script src="https://wgo.waltheri.net/wgo.min.js"></script>
+    <script src="../goban.js"></script>
   </head>
   <body>
     <div class="sidebar">
@@ -54,17 +56,30 @@
       </h4><br>
 
     </div><div class="bishuu" id="bishuu">
-        <h4>そもそも囲碁には５つのルールがある</h4>
-        <ol>
-          <li>白と黒が交互に打つ</li>
-          <li>相手よりも多く陣地を囲った方が勝つ</li>
-          <li>石は周りを囲めばとれる</li>
-          <li>石を打てない場所がある</li>
-          <li>コウのルール</li>
-        </ol>
-        基本的にこの５つが存在する。
-        <br>この中でも勝負に直結するのが２と３のルールである。
-        <br>この２つを基に駆け引きを行うのが囲碁の戦いである。
+        <h4>守るという行いは本来ポジティブなものであると言ったが、たしかに苦しい守りも存在する。</h4>
+        <br>ではどのようにポジティブかネガティブか分けられるのだろうか？
+        <br>自分はそれを以下の二つのように分ける。
+        <ul>
+          <li class="hapidead"><a href="#uresii">力を蓄える守り</a></li>
+          <li class="hapidead"><a href="#kurusii">やらされる守り</a></li>
+        </ul>
+        これらがなぜ嬉しいか、苦しいかを解説する
+        <br><br><br><div class="uresii" id="uresii">
+          <h4>嬉しい守り</h4>
+          ではそもそも守るということがなぜ嬉しい状況につながるのだろうか？
+          <br>それはその守りの手が、今はできない強引な手を行う
+          <br><br><div id="board1" class="board" data-sgf="(;GM[1]FF[4]SZ[19];B[dd];W[qp];B[pq];W[dp])"></div>
+        </div>
+        <br>上記の棋譜に於いて、白の一団と黒の一団がせめぎ合っている状態における白番である。
+        <br>ここでもし白が自分を守らなければこのようになってしまう。
+
+        <br><br>ではなぜこのようなことが発生するのだろうか？
+        <br>それは後程開設する石の強弱に強く密接するのだが、石の強さが相対的であるためである。
+        <br>ここではそれを簡単に表すと、争いはそもそも相手より自分が弱ければ話にもならないという事である。
+        <br><br>多少手筋などでごまかせたとしても基本的にその条理から外れることはないのだ。
+        <br><div class="kurusii" id="kurusii">
+          <h4>苦しい守り</h4>
+        </div>
         <br><br>これを基に、
         <ul>
           <li>囲碁の基本的な１手あたりの選択肢から</li>
