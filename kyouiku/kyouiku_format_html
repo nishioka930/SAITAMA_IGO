@@ -106,10 +106,6 @@
 </html>
 
 <!--
-      <a href=""
-        >
-        棋譜</a>
-
         <br><br><a href="https://fujigoban.appspot.com/ai/?sgf=()&num=(手数)"
         target="_blank">
             <img src="../igoicon.png" alt="igoicon" width="60" height="60"/></a>

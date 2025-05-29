@@ -1,22 +1,17 @@
 window.addEventListener('DOMContentLoaded', () => {
-  const boards = document.querySelectorAll('.board');
+  const players = document.querySelectorAll('.board');
 
-  boards.forEach(boardElem => {
-    const sgfData = boardElem.getAttribute('data-sgf');
+  players.forEach(playerElem => {
+    const sgf = playerElem.getAttribute('data-sgf');
+    const initialMove = parseInt(playerElem.getAttribute('data-initial')) || 0;
 
-    const board = new WGo.Board(boardElem, {
+    new WGo.Player(playerElem, {
+      sgf: sgf,
+      move: initialMove,
       width: 400,
-      height: 400,
-      background: "#DEB887", // 明るい碁盤色（ベージュ）
+      enableWheel: false,
+      // layout: "right", // 必要なら再生ボタンを右側などに変更可能
     });
-
-    if (sgfData) {
-      const parsed = WGo.SGF.parse(sgfData);
-      const sgf = Array.isArray(parsed) ? parsed[0] : parsed; // 最初の局面だけ使う
-
-      board.load(sgf);
-    } else {
-      console.error('SGFデータが見つかりません');
-    }
   });
 });
+
