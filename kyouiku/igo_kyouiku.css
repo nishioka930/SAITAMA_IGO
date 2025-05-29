@@ -1,0 +1,124 @@
+body {
+  background-color: #000000;
+  color: white;
+  font-family: "HG正楷書体-PRO";
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: wheat; 
+}
+
+a:visited {
+  color: blueviolet; 
+}
+
+a:hover {
+  color: rgb(0, 255, 174); 
+}
+
+.title{
+  font-size: 30px;
+}
+
+.line {
+  height: 2px;
+  width: 53.5%;
+  background-color: white;
+  margin: 20px auto;
+  margin-bottom: 200px;
+}
+
+.line2 {
+  height: 2px;
+  width: 53.5%;
+  background-color: white;
+  margin: 20px auto;
+  margin-bottom: 30px;
+}
+
+ol {
+  text-align: center;
+  margin-left: -40px; 
+  list-style-position: inside;
+}
+
+.vertical-line1,
+.vertical-line2 {
+  position: fixed;
+  top: 0;
+  width: 2px;
+  height: 100vh;            /* ← 画面いっぱいの高さ */
+  background-color: white;
+  z-index: 9999;
+}
+
+/* それぞれに位置指定 */
+.vertical-line1 {
+  left: 300px;
+}
+
+.vertical-line2 {
+  right: 300px;
+}
+
+.kyouiku_naiyou a {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.logo{
+  text-align: center;
+}
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  display: inline-block;         /* ← 四角形を内容に合わせて表示 */
+  white-space: nowrap;           /* ← 折り返さない（横に伸ばす） */
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 6px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: calc(100% + 10px);
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+
+  width: fit-content;            /* ← 文字幅にフィット（幅を明示） */
+  max-width: 300px;              /* ← 長すぎる場合の制限は残す */
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -10px;
+  transform: translateY(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgba(0, 0, 0, 0.9) transparent transparent;
+}

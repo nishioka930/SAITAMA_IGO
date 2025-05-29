@@ -1,0 +1,22 @@
+.wgo-player {
+  font-family: sans-serif;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 420px;
+}
+
+.wgo-player .wgo-board {
+  margin-bottom: 10px;
+}
+
+.wgo-player .wgo-controls {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.wgo-player button {
+  padding: 5px 10px;
+  margin: 2px;
+}
