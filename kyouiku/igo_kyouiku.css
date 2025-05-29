@@ -77,31 +77,33 @@ ol {
 }
 
 .tooltip {
-  position: relative; /* これがないと絶対位置基準がおかしくなる */
+  position: relative;
   cursor: pointer;
-  display: inline-block; /* 横並びを確実に */
+  display: inline-block;
 }
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: auto;           /* 自動幅にしてテキストのサイズに合わせる */
-  max-width: 200px;      /* 最大幅は設定しておくと良い */
-  white-space: nowrap;   /* 横に長く表示（折り返さない） */
+  display: inline-block;         /* ← 四角形を内容に合わせて表示 */
+  white-space: nowrap;           /* ← 折り返さない（横に伸ばす） */
   background-color: rgba(0, 0, 0, 0.9);
   color: #ffffff;
   font-size: 14px;
-  text-align: left;      /* 左揃え */
+  text-align: left;
   border-radius: 6px;
   padding: 6px 10px;
   position: absolute;
   z-index: 10;
-  top: 50%;                      /* 縦方向中央 */
-  left: calc(100% + 15px);                   /* 文字の真右にくる */
-  transform: translateY(-50%);   /* 垂直中央揃え */
+  top: 50%;
+  left: calc(100% + 10px);
+  transform: translateY(-50%);
   opacity: 0;
   transition: opacity 0.3s;
   pointer-events: none;
   box-shadow: 0 0 6px rgba(0,0,0,0.5);
+
+  width: fit-content;            /* ← 文字幅にフィット（幅を明示） */
+  max-width: 300px;              /* ← 長すぎる場合の制限は残す */
 }
 
 .tooltip:hover .tooltiptext {
@@ -114,9 +116,9 @@ ol {
   content: "";
   position: absolute;
   top: 50%;
-  left: 0;
+  left: -10px;
   transform: translateY(-50%);
   border-width: 5px;
   border-style: solid;
-  border-color: transparent rgba(255, 255, 255, 0.9) transparent transparent;
+  border-color: transparent rgba(0, 0, 0, 0.9) transparent transparent;
 }
