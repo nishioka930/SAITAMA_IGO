@@ -1,0 +1,71 @@
+body {
+  background-color: #000000;
+  color: white;
+  font-family: "HG正楷書体-PRO";
+}
+
+a {
+  color: wheat; 
+}
+
+a:visited {
+  color: blueviolet; 
+}
+
+a:hover {
+  color: rgb(0, 255, 174); 
+}
+
+.title {
+  text-align: center;
+  margin-left: 120px; 
+  margin-top: 80px;
+
+  white-space: nowrap; 
+  
+  width: 400px;
+  height: 300px;
+  font-size: 45px;
+
+  display: flex;   
+  gap: 180px;
+}
+
+.igo_img{
+  display: flex;
+  gap: 30px;
+}
+
+.line {
+  height: 2px;
+  width: 83%;
+  background-color: white;
+  margin: 20px auto;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease forwards;
+}
+
+.SU{
+  text-align: center;
+  margin-left: 120px; 
+  margin-top: 70px;
+
+  width: 100px;
+  height: 180px;
+  white-space: nowrap; 
+}
+
+.page{
+  text-align: center;
+}
