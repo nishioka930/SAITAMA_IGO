@@ -30,8 +30,8 @@ a:hover {
     width: 23.5%;
     position: fixed;
     overflow-y: auto;
-    box-sizing: border-box;
     font-family: "Yuji syuku";
+    box-sizing: border-box;
     background-color: rgb(109, 122, 72);
 
     border-top-right-radius: 20px;
@@ -76,6 +76,7 @@ a:hover {
     background-color: white;
     margin: 20px auto;
 }
+
 
 .tooltip {
   position: relative; /* これがないと絶対位置基準がおかしくなる */
