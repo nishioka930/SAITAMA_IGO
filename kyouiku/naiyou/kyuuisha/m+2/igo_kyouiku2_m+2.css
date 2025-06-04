@@ -1,0 +1,125 @@
+body {
+  background-color: #000000;
+  color: white;
+  font-family: "HG正楷書体-PRO";
+
+  text-align: left;
+  margin-left: 26.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: wheat; 
+}
+
+a:visited {
+  color: blueviolet; 
+}
+
+a:hover {
+  color: rgb(0, 255, 174); 
+}
+
+.sidebar{
+    top: 0;
+    left: 0; 
+    height: 100vh;
+    width: 23.5%;
+    position: fixed;
+    overflow-y: auto;
+    font-family: "Yuji syuku";
+    box-sizing: border-box;
+    background-color: rgb(109, 122, 72);
+    /*初心者は(192, 152, 152)、段位者は(111,45,168)*/
+
+    border-top-right-radius: 20px;
+    font-size: 15px;
+}
+
+.sidebar a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover{
+    color: rgba(168, 168, 168, 0.973);
+}
+
+.sidebar ul,li{
+    
+    list-style: none;
+    margin: 0;
+    padding: 10px 5px;
+}
+
+.sidebar-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;          /* 画面下端に固定 */
+  width: 23.5%;       /* サイドバーの幅に合わせる */
+  padding: 10px;
+  background-color: rgb(80, 90, 40); 
+  /* 初心者は(192, 152, 152)、段位者は(84, 34, 127)*/
+  color: white;
+  font-family: "Yuji syuku";
+  font-size: 14px;
+  border-top-right-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.line {
+    text-align: center;
+    height: 2px;
+    width: 100vw;
+    background-color: white;
+    margin: 20px auto;
+}
+
+.tooltip {
+  position: relative; /* これがないと絶対位置基準がおかしくなる */
+  cursor: pointer;
+  display: inline-block; /* 横並びを確実に */
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;           /* 自動幅にしてテキストのサイズに合わせる */
+  max-width: 200px;      /* 最大幅は設定しておくと良い */
+  white-space: nowrap;   /* 横に長く表示（折り返さない） */
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+  font-size: 14px;
+  text-align: left;      /* 左揃え */
+  border-radius: 6px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 10;
+  top: 50%;                      /* 縦方向中央 */
+  left: calc(100% + 15px);                   /* 文字の真右にくる */
+  transform: translateY(-50%);   /* 垂直中央揃え */
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent rgba(255, 255, 255, 0.9) transparent transparent;
+}
