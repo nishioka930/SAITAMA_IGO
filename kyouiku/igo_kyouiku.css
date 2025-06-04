@@ -11,6 +11,7 @@ html {
 
 a {
   color: wheat; 
+  left: 0.5%;
 }
 
 a:visited {
