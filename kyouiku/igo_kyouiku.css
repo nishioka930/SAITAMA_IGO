@@ -38,7 +38,7 @@ a:hover {
   width: 53.5%;
   background-color: white;
   margin: 20px auto;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 ol {
@@ -59,11 +59,11 @@ ol {
 
 /* それぞれに位置指定 */
 .vertical-line1 {
-  left: 300px;
+  left: 23.5%;
 }
 
 .vertical-line2 {
-  right: 300px;
+  right: 23.5%;
 }
 
 .kyouiku_naiyou a {
