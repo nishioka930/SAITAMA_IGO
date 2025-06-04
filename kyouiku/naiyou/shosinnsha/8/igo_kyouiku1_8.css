@@ -27,7 +27,7 @@ a:hover {
     top: 0;
     left: 0; 
     height: 100vh;
-    width: 300px;
+    width: 23.5%;
     position: fixed;
     overflow-y: auto;
     font-family: "Yuji syuku";
@@ -58,7 +58,7 @@ a:hover {
   position: fixed;
   left: 0;
   bottom: 0;          /* 画面下端に固定 */
-  width: 300px;       /* サイドバーの幅に合わせる */
+  width: 23.5%;       /* サイドバーの幅に合わせる */
   padding: 10px;
   background-color: rgb(192, 152, 152); /* 適宜調整 */
   color: white;
