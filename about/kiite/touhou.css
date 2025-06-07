@@ -32,7 +32,7 @@ a:hover {
     overflow-y: auto;
     font-family: "Yuji syuku";
     box-sizing: border-box;
-    background-color: rgb(111,45,168);
+    background-color: rgb(244,194,194);
 
     border-top-right-radius: 20px;
     font-size: 15px;
@@ -60,7 +60,7 @@ a:hover {
   bottom: 0;          /* 画面下端に固定 */
   width: 23.5%;       /* サイドバーの幅に合わせる */
   padding: 10px;
-  background-color: rgb(84, 34, 127); /* 適宜調整 */
+  background-color: rgb(192, 152, 152); /* 適宜調整 */
   color: white;
   font-family: "Yuji syuku";
   font-size: 14px;
