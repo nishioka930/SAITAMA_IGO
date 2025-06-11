@@ -3,6 +3,23 @@ body {
   color: white;
   font-family: "HG正楷書体-PRO";
   text-align: center;
+  
+  background-image: url("rain01.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.black-box {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  
+  width: 53%;
+  background-color: black;
+  z-index: -1;
 }
 
 html {
@@ -124,13 +141,7 @@ ol {
   border-color: transparent rgba(0, 0, 0, 0.9) transparent transparent;
 }
 
-label {
-  font-family: sans-serif;
-  font-size: 1rem;
-  padding-right: 10px;
+.rain{
+  z-index: 10;
 }
 
-select {
-  font-size: 0.9rem;
-  padding: 2px 5px;
-}

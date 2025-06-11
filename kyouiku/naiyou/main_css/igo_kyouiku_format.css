@@ -41,7 +41,7 @@ a:hover {
     text-decoration: none;
 }
 
-.sidebar a:hover{
+.sidebar a:hover,.main is-inview{
     color: rgba(168, 168, 168, 0.973);
 }
 
