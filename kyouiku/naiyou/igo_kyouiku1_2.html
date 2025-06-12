@@ -2,6 +2,7 @@
 <html lang="ja">
 <html>
   <head>
+    <link rel="icon" href="https://nishioka930.github.io/SAITAMA_IGO/igologo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://nishioka930.github.io/SAITAMA_IGO/kyouiku/naiyou/main_css/igo_kyouiku_format.css">
@@ -13,72 +14,106 @@
       <ul>
         <li><a href="#kyuiku_page">タイトル</a></li>
 
-        <li><a href="#rule">題名１</a></li>
-        <li><a href="#itteatari">　題目２</a></li>
-        <li><a href="#">　副題１</a></li>
-
-        <li><a href="#">題名３</a></li>
+        <li><a href="#main1">四つの選択肢</a></li>
+        <li><a href="#sub1-1">　自分の陣地を囲う</a></li>
+        <li><a href="#sub1-2">　相手の陣地を減らす</a></li>
+        <li><a href="#sub1-3">　相手の石を取る</a></li>
+        <li><a href="#sub1-4">　自分の石を取られないようにする</a></li>
+        
+        <li><a href="#main2">囲碁の三段階</a></li>
+        <li><a href="#sub2-1">　序盤</a></li>
+        <li><a href="#sub2-2">　中盤</a></li>
+        <li><a href="#sub2-3">　終盤</a></li>
+        
+        <li><a href="#main3">危険な状態と駆け引き</a></li>
+        <li><a href="#sub3-1">　様々な危険な状態</a></li>
+        <li><a href="#sub3-2">　それに基づく駆け引き</a></li>
       </ul>    
       <div class="sidebar-footer">
         <a href="https://nishioka930.github.io/SAITAMA_IGO/kyouiku/igo_kyouiku.html">戻る</a>
       </div>
     </div>
-    <div class="kyouiku">
-      <div class="kyuiku_page">
-        <h1>第２回 基本的な流れ</h1>
-        <div class="line2"></div>
-      </div><br>
+    <div class="main" id="title">
+      <div class="tooltip"><h1>第２回 囲碁の流れ</h1>
+        <span class="tooltiptext">囲碁の大まかな流れを解説する。</span>
+      </div>
+        
+      <div class="line"></div>
+      <br>
       <div class="kyouiku_naiyou">
-        <h2><!--   最初の一言  --></h2>
-
-        9路盤でルールと石の取り合いを体得（詰碁と並行）
-        ↓
-        13路盤で布石～死活を練習（囲いと連絡に注目）
-        ↓
-        19路盤で布石の選択肢を学び、終局まで打つ習慣
-
-        【全体の流れを5ステップで教える】
-ステップ	内容	目的	教え方
-① 序盤（布石）	隅・辺に打って地のベースをつくる	有利な形勢で中盤に入る	隅→辺→中央の順で打つ理由を教える
-② 模様作り	厚みを活かして陣地を広げる	地か厚みかの選択	模様に打ち込むか囲うかを考えさせる
-③ 中盤（戦い）	弱い石を助け、相手を攻める	相手の形を崩して有利を作る	「攻めて得を取る」具体例を示す
-④ 終盤（ヨセ）	地を囲い切り、相手の地を削る	細かい点差を調整	「1手で何目得するか」を意識させる
-⑤ 終局・地の計算	死石を取り除き、地を数える	勝敗を確認	数える練習を実戦ごとにやらせる
-
-【初心者に重要なのは「ねらいをもって打つ」こと】
-「勝つ」には何を目指すか？ → 地を多く囲う
-
-そのために教えるべきことは：
-
-    石を取るゲームではない（地を囲う）
-
-    石を殺さずに逃げるだけでもいい（生きる）
-
-    一つの手には狙いがある（囲う、連絡、攻め、逃げ、削る）
-
-
-    【初心者に教える「勝利への地図」】
-
-    ◯ まずは隅に打つ → 地を囲う
-    ◯ 相手の石がバラバラなら切って分断
-    ◯ 自分の石が弱ければ逃げる・つなぐ
-    ◯ 石が安定したら相手の陣地に入って妨害
-    ◯ 最後に地を囲いきってヨセる
-
+        <h2>諸君は囲碁とはどのように進んでいく物なのか、十分に理解できているだろうか？</h2>
         <h4>
-        <!--   コメ  -->
+          もしかするとよく分からずになんとなく手を打っているのではないか？
         </h4>
         <h4>
-        <!--   コメ  -->
+          この初心者講座のゴールである、「目的を持って打つ」ということと大きくかけ離れているではないか。
         </h4>
         <br>
-        <h4><!--   コメ  -->
-          <!--   ＃のあとにはIDID  -->
-          <br><a href="#">・<!--   コメ  --></a>
-          <br><a href="#">・<!--   コメ  --></a>
-          <br><a href="#">・<!--   コメ  --></a>
-          <br><!--   コメ  -->
+        <h4>今回は囲碁の流れというものを以下の
+          <br><a href="#main1">・四つの選択肢</a>
+          <br><a href="#main2">・囲碁の三段階</a>
+          <br><a href="#main3">・危険な状態と駆け引き</a>
+          <br>という三つに分けて解説する。
         </h4><br>
+
+        <div class="main" id="main1">
+        <h2>手を打つ時に考える基本のこと</h2>
+        <br>そもそも囲碁に勝つという事は、ルール上で有利に進めるという事である。
+        <br>では囲碁のルールの中で勝負に直結するものとは何だろうか？
+        <br><br><br>それは
+        <ol>
+          <li>1.陣地を作る</li>
+          <li>2.石を取れる</li>
+        </ol>
+        という二つである。
+
+        <br><br>この二つを基に、以下の四つに分類できる。
+        <br><br><img src="https://nishioka930.github.io/SAITAMA_IGO/kyouiku/naiyou/igo_kyouiku1_2.png" alt="igologo" width="100" height="100"/>
+        <br><br>
+        
+         <br><br><br><div id="sub1-1">
+          <h3><!--   コメント  --></h3>
+        </div>
+
+        <br><br><br><div id="sub1-2">
+          <h3><!--   コメント  --></h3>
+        </div>
+        
+        <br><br><br><div id="sub1-3">
+          <h3><!--   コメント  --></h3>
+        </div>
+        
+        <br><br><br><div id="sub1-4">
+          <h3><!--   コメント  --></h3>
+        </div>
+      </div>
+      
+      <div class="main" id="main2">
+        <h2>囲碁の場面に於いて<h2>
+        
+        <br><br><br><div id="sub2-1">
+          <h3><!--   コメント  --></h3>
+        </div>
+
+        <br><br><br><div id="sub2-2">
+          <h3><!--   コメント  --></h3>
+        </div>
+        
+        <br><br><br><div id="sub2-3">
+          <h3><!--   コメント  --></h3>
+        </div>
+      </div>
+      
+      <div class="main" id="main3">
+        <h2>駆け引きと敗北</h2>
+        
+        <br><br><br><div id="sub3-1">
+          <h3><!--   コメント  --></h3>
+        </div>
+
+        <br><br><br><div id="sub3-2">
+          <h3><!--   コメント  --></h3>
+        </div>
       </div>
     </div>
     <br><br><br>
