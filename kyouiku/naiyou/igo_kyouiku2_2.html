@@ -2,12 +2,15 @@
 <html lang="ja">
 <html>
   <head>
-    <meta charset="UTF-8">
     <link rel="icon" href="https://nishioka930.github.io/SAITAMA_IGO/igologo.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://nishioka930.github.io/SAITAMA_IGO/kyouiku/naiyou/main_css/igo_kyouiku_format.css">
     <link rel="stylesheet" href="https://nishioka930.github.io/SAITAMA_IGO/kyouiku/naiyou/main_css/igo_kyouiku2_format.css">
-    <title>埼玉大学囲碁部/教育/11</title>
+    <title>埼玉大学囲碁部/教育/0</title>
   </head>
   <body>
     <div class="sidebar">
@@ -16,17 +19,17 @@
         
         <li><a href="#yougo"><h3>今日の囲碁用語</h3></a></li>
 
-        <li><a href="#maina"><h4>棋風</h4></a></li>
+        <li><a href="#maina"><h4>題名１</h4></a></li>
         <li><a href="#sub1-1">　副題１</a></li>
         <li><a href="#sub1-2">　副題２</a></li>
         <li><a href="#sub1-3">　副題３</a></li>
 
-        <li><a href="#main2"><h4>構想<h4></a></li>
+        <li><a href="#main2"><h4>題目２<h4></a></li>
         <li><a href="#sub2-1">　副題１</a></li>
         <li><a href="#sub2-2">　副題２</a></li>
         <li><a href="#sub2-3">　副題３</a></li>
 
-        <li><a href="#main3"><h4>布石</h4></a></li>
+        <li><a href="#main3"><h4>題名３</h4></a></li>
         <li><a href="#sub3-1">　副題１</a></li>
         <li><a href="#sub3-2">　副題２</a></li>
         <li><a href="#sub3-3">　副題３</a></li>
@@ -36,87 +39,61 @@
         <a href="https://nishioka930.github.io/SAITAMA_IGO/kyouiku/igo_kyouiku.html">戻る</a>
       </div>
     </div>
-    <div class="kyuiku_page" id="title"><div class="tooltip"><h1>第２回 モンテカルロ法</h1>
-      <span class="tooltiptext">布石という言葉は石を"敷く"(布)から生まれた、碁が語源の言葉である。<br>ケーキを用いたモンテカルロ法の実験に於いてチョコチップをランダムに"敷いた"としてもπという値が自然に現れる。<br>棋風も同じく自然と打っていれば現れるものである。<br>しかし自分ではそれは見つかるまでわからない。<br>だから自分の棋風を断定しないようにしていただきたい。</span>
-    </div>  
-    <div class="line"></div>
-    <br>
+
+    <div class="kyuiku_page" id="title">
+      <div class="tooltip"><h1>第１回 四季と旬のように</h1>
+        <span class="tooltiptext">初心者コースに於ける囲碁の三段階をより具体的に解説する</span>
+      </div>
+
+      <div class="line"></div>
+    </div><br>
     <div class="kyouiku_naiyou">
-      <h2><!--   最初の一言  --></h2>
+      <h2>囲碁の闘いの流れには主に段階が３つある。</h2>
+
+      方向性
+      →勝つまでの流れ
+      →次に囲碁のイメージ
+      →そして具体的な技
+
+      勝つまでの大まかなイメージ
+      ↓
+      棋風につなげられるように
+      →またこの講座の基本軸として
+
+
       <h4>
-        <!--   コメント  -->
-        </h4>
-        <h4>
-        <!--   コメント  -->
-        </h4>
-        <br>
-        <h4><!--   コメント  -->
-          <br><a href="#yougo">・今日の囲碁用語</a>
+        段階ごとに目的が異なり、その段階に合った良い選択というものがある。
+      </h4>
+      <br>
+        <h4>ではどのように打てば囲碁らしい闘いになるというのだろうか？
+          <br><a href="#rule">・囲碁がどのようなものか</a>
+          <br><a href="#howwin">・どのようにして勝つのか</a>
+          <br><a href="#roman">・そしてそこからどのようなロマンが考えられるのか</a>
+          <br>ということを教えてゆきたいと思う。</h4>
           <br>
-          <br><a href="#main1">・棋風</a>
-          <br><a href="#main2">・布石</a>
-          <br><a href="#main3">・構想</a>
-          <br><!--   コメント  -->
-        </h4><br>
-
-      <div class="line"></div>
-      
-      <div class="main" id="yougo">
-        <h2>今日の囲碁用語</h2>
-        厚み模様
-      </div>
-
-      <div class="line"></div>
-      </div>
-      
-      
-      <div class="main" id="main1">
-        <h2><!--   コメント  --></h2>
-        
-         <br><br><br><div id="sub1-1">
-          <h3><!--   コメント  --></h3>
+      <div class="igotoha" id="rule">
+        <h4>そもそも囲碁には５つのルールがある</h4>
+        <ol>
+          <li>白と黒が交互に打つ</li>
+          <li>相手よりも多く陣地を囲った方が勝つ</li>
+          <li>石は周りを囲めばとれる</li>
+          <li>石を打てない場所がある</li>
+          <li>コウのルール</li>
+        </ol>
+        基本的にこの５つが存在する。
+        <br>この中でも勝負に直結するのが２と３のルールである。
+        <br>この２つを基に駆け引きを行うのが囲碁の戦いである。
+        <br><br>これを基に、
+        <ul>
+          <li>囲碁の基本的な１手あたりの選択肢から</li>
+          <li>ルールに直結した基本的な考え方</li>
+          <li>相手との駆け引き</li>
+        </ul>
+        を解説する。
+        <br>
+        <div class="itteatari" id="itteatari">
+          <h5>１手辺りの選択肢について</h5>
         </div>
-
-        <br><br><br><div id="sub1-2">
-          <h3><!--   コメント  --></h3>
-        </div>
-        
-        <br><br><br><div id="sub1-3">
-          <h3><!--   コメント  --></h3>
-        </div>
-      </div>
-      
-      <div class="main" id="main2">
-        <h2><!--   コメント  --></h2>
-        
-        <br><br><br><div id="sub2-1">
-          <h3><!--   コメント  --></h3>
-        </div>
-
-        <br><br><br><div id="sub2-2">
-          <h3><!--   コメント  --></h3>
-        </div>
-        
-        <br><br><br><div id="sub2-3">
-          <h3><!--   コメント  --></h3>
-        </div>
-      </div>
-      
-      <div class="main" id="main3">
-        <h2><!--   コメント  --></h2>
-        
-        <br><br><br><div id="sub3-1">
-          <h3><!--   コメント  --></h3>
-        </div>
-
-        <br><br><br><div id="sub3-2">
-          <h3><!--   コメント  --></h3>
-        </div>
-        
-        <br><br><br><div id="sub3-3">
-          <h3><!--   コメント  --></h3>
-        </div>
-      </div>
     </div>
     <br><br><br>
     <div class="logo">
